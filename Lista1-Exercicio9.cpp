@@ -2,7 +2,7 @@
 
 int main ()
 {
-  // FaÁa um programa que calcule e mostre a ·rea de um tri‚ngulo.
+  // Fa√ßa um programa que calcule e mostre a √°rea de um tri√¢ngulo.
 
     float base, altura, area;
 
