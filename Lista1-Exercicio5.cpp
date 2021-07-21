@@ -3,7 +3,7 @@
 
 int main()
 {
-    /*FA«A UM PROGRAMA QUE RECEBA O SAL¡RIO DE UM FUNCION¡RIO E O PERCENTUAL DE AUMENTO,
+    /*FA√áA UM PROGRAMA QUE RECEBA O SAL√ÅRIO DE UM FUNCION√ÅRIO E O PERCENTUAL DE AUMENTO,
     CALCULE E MOSTRE O VALOR DO AUMENTO E O NOVO SALARIO*/
 
     float salarioantigo, percentualdeaumento, calculopercentual, valordoaumento;
