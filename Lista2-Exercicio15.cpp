@@ -4,13 +4,13 @@
 int main()
 {
 
-    /*O custo ao consumidor de um carro novo È a soma do preÁo de f·brica com o
-    percentual de lucro do distribuidor e dos impostos aplicados ao preÁo de f·brica. FaÁa
-    um programa que receba o preÁo de f·brica de um veÌculo, o percentual de lucro do
+    /*O custo ao consumidor de um carro novo √© a soma do pre√ßo de f√°brica com o
+    percentual de lucro do distribuidor e dos impostos aplicados ao pre√ßo de f√°brica. Fa√ßa
+    um programa que receba o pre√ßo de f√°brica de um ve√≠culo, o percentual de lucro do
     distribuidor e o percentual de impostos, calcule e mostre:
-    a) o valor correspondente ao lucro do distribuidor;
+    a) o valor correspondente ao lucro do distribuidor
     b) o valor correspondente aos impostos;
-    c) o preÁo final do veÌculo. */
+    c) o pre√ßo final do ve√≠culo. */
 
 
     float precofabrica, perlucrodistribuidor, perlimposto, lucrodistr, valimposto, valorfinal;
