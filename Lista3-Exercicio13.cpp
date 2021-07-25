@@ -3,10 +3,10 @@
 int main()
 {
 
-    /* Faça um programa que apresente o menu a seguir, permita ao usuário escolher
-    a opção desejada, receba os dados necessários para executar a operação e mostre
-    o resultado. Verifique a possibilidade de opção inválida e não se preocupe com
-    restrições, como salário negativo.*/
+    /* FaÃ§a um programa que apresente o menu a seguir, permita ao usuÃ¡rio escolher
+    a opÃ§Ã£o desejada, receba os dados necessÃ¡rios para executar a operaÃ§Ã£o e mostre
+    o resultado. Verifique a possibilidade de opÃ§Ã£o invÃ¡lida e nÃ£o se preocupe com
+    restriÃ§Ãµes, como salÃ¡rio negativo.*/
 
     int op;
     float salario;
@@ -21,7 +21,7 @@ int main()
 
     switch(op)
     {
-        //Na opção 1: receber o salário de um funcionário, calcular e mostrar o valor do
+        //Na opÃ§Ã£o 1: receber o salÃ¡rio de um funcionÃ¡rio, calcular e mostrar o valor do
         //imposto usando as regras a seguir.
 
         case 1:
@@ -44,8 +44,8 @@ int main()
             }
         break;
 
-        //Na opção 2: receber o salário de um funcionário, calcular e mostrar o valor do novo
-        //salário, usando as regras a seguir.
+        //Na opÃ§Ã£o 2: receber o salÃ¡rio de um funcionÃ¡rio, calcular e mostrar o valor do novo
+        //salÃ¡rio, usando as regras a seguir.
 
         case 2:
             printf("\n---OPCAO NOVO SALARIO---");
@@ -67,7 +67,7 @@ int main()
             }
         break;
 
-        //Na opção 3: receber o salário de um funcionário e mostrar sua classificação usando
+        //Na opÃ§Ã£o 3: receber o salÃ¡rio de um funcionÃ¡rio e mostrar sua classificaÃ§Ã£o usando
         //a tabela a seguir.
 
         case 3:
