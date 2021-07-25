@@ -4,12 +4,13 @@
 int main()
 {
 
-    // Faça um programa que mostre o menu de opções a seguir, receba a opção do
-    //usuário e os dados necessários para executar cada operação.
-    /*Menu de opções:
-    1. Somar dois números.
-    2. Raiz quadrada de um número.
-    Digite a opção desejada:*/
+    // FaÃ§a um programa que mostre o menu de opÃ§Ãµes a seguir, receba a opÃ§Ã£o do
+    //usuÃ¡rio e os dados necessÃ¡rios para executar cada operaÃ§Ã£o.
+    /*Menu de opÃ§Ãµes:
+    
+    1. Somar dois nÃºmeros.
+    2. Raiz quadrada de um nÃºmero.
+    Digite a opÃ§Ã£o desejada:*/
 
     float n1, n2;
     int op;
