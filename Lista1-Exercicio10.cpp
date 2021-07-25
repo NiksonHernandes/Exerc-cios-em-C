@@ -8,7 +8,6 @@ int main()
     
     float raio;
 
-    
     printf("Informe o raio do círculo: ");
     scanf("%f", &raio);
     
