@@ -3,11 +3,11 @@
 
 int main()
 {
-    /*Faça um programa que receba um número positivo e maior que zero, calcule e mostre:
-    a) o número digitado ao quadrado;
-    b) o número digitado ao cubo;
-    c) a raiz quadrada do número digitado;
-    d) a raiz cúbica do número digitado.*/
+    /*FaÃ§a um programa que receba um nÃºmero positivo e maior que zero, calcule e mostre:
+    a) o nÃºmero digitado ao quadrado;
+    b) o nÃºmero digitado ao cubo;
+    c) a raiz quadrada do nÃºmero digitado;
+    d) a raiz cÃºbica do nÃºmero digitado.*/
 
     int num1, quadrado, cubo;
     float raizquadrada, raizcubica;
