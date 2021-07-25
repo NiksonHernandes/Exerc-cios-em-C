@@ -4,8 +4,8 @@
 int main()
 {
 
-    /*Faça um programa que receba o salário base e o tempo de serviço de um
-    funcionário. Calcule e mostre:*/
+    /*FaÃ§a um programa que receba o salÃ¡rio base e o tempo de serviÃ§o de um
+    funcionÃ¡rio. Calcule e mostre:*/
 
     float salbase = 0, temposerv = 0, saliquido = 0, imposto = 0, gratif = 0;
 
@@ -58,7 +58,7 @@ int main()
 
     }
 
-    // O salário líquido, ou seja, salário base menos imposto mais gratificação.
+    // O salÃ¡rio lÃ­quido, ou seja, salÃ¡rio base menos imposto mais gratificaÃ§Ã£o.
 
     saliquido = ((salbase) - imposto * salbase) + gratif;
     printf("\nSalario liquido: R$ %.2f reais", abs(saliquido));
