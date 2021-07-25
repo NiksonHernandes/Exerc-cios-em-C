@@ -2,12 +2,12 @@
 
 int main()
 {
-    /*FAÇA UM PROGRAMA QUE RECEBA:
-    O código de um produto comprado, supondo que a digitação do código do produto
-    seja sempre válida, isto é, um número inteiro entre 1 e 10.
+    /*FAÃ‡A UM PROGRAMA QUE RECEBA:
+    O cÃ³digo de um produto comprado, supondo que a digitaÃ§Ã£o do cÃ³digo do produto
+    seja sempre vÃ¡lida, isto Ã©, um nÃºmero inteiro entre 1 e 10.
     O peso do produto em quilos.
-    O código do país de origem, supondo que a digitação do código seja sempre válida,
-    isto é, um número inteiro entre 1 e 3.*/
+    O cÃ³digo do paÃ­s de origem, supondo que a digitaÃ§Ã£o do cÃ³digo seja sempre vÃ¡lida
+    isto Ã©, um nÃºmero inteiro entre 1 e 3.*/
 
     int codproduto, pais;
     float pesokilos, pesogramas, precototal, imposto;
@@ -24,7 +24,7 @@ int main()
     //codigo do produto
 
     if(codproduto >=1 && codproduto <=4){
-        //printf("\nPreço por 10gramas");
+        //printf("\nPreÃ§o por 10gramas");
         precototal = precototal + 10;
 
     }else if(codproduto >=5 && codproduto <=7){
@@ -64,18 +64,18 @@ int main()
     pesogramas = pesokilos * 1000;
     printf("\n\nPesogramas: %.2f gramas", pesogramas);
 
-    //o preço total do produto comprado;
+    //o preÃ§o total do produto comprado;
 
     precototal = precototal * pesogramas;
     printf("\nPreco total: R$ %.2f reais", precototal);
 
-    /*o valor do imposto, sabendo que ele é cobrado sobre o preço total do produto
-    comprado e depende do país de origem*/
+    /*o valor do imposto, sabendo que ele Ã© cobrado sobre o preÃ§o total do produto
+    comprado e depende do paÃ­s de origem*/
 
     imposto = precototal * imposto;
     printf("\nValor a ser pago pelo imposto: R$ %.2f reais", imposto);
 
-    //o valor total, preço total do produto mais imposto
+    //o valor total, preÃ§o total do produto mais imposto
 
     printf("\n\nO valor total eh: R$ %.2f reais\n", precototal+imposto);
 
