@@ -3,10 +3,10 @@
 
 int main()
 {
-    /*Faça um programa que receba um número real, encontre e mostre:
-    a) a parte inteira desse número;
-    b) a parte fracionária desse número;
-    c) o arredondamento desse número.*/
+    /*FaÃ§a um programa que receba um nÃºmero real, encontre e mostre:
+    a) a parte inteira desse nÃºmero;
+    b) a parte fracionÃ¡ria desse nÃºmero;
+    c) o arredondamento desse nÃºmero.*/
 
     float n1, partefracionada, arredondamento, fracionada;
 
@@ -20,17 +20,6 @@ int main()
     printf("\nA parte fracionada eh: %.3f", fracionada );
 
     printf("\nO arredondamento eh: %.3f", ceil(n1));
-
-
-
-
-
-
-
-
-
-
-
 
     getchar();
     return 0;
