@@ -8,7 +8,6 @@ int main()
 
     float salariobase, salarioareceber, gratificacao,imposto, salariogratificacao, salarioimposto;
 
-
     printf("Digite o salario base: ");
     scanf("%f", &salariobase);
 
