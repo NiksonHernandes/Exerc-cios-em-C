@@ -2,11 +2,11 @@
 
 int main()
 {
-    /*Pedro comprou um saco de raÁ„o com peso em quilos. Ele possui dois gatos, para
-    os quais fornece a quantidade de raÁ„o em gramas. A quantidade di·ria de raÁ„o
-    fornecida para cada gato È sempre a mesma. FaÁa um programa que receba o peso
-    do saco de raÁ„o e a quantidade de raÁ„o fornecida para cada gato, calcule e mostre
-    quanto restar· de raÁ„o no saco apÛs cinco dias.*/
+    /*Pedro comprou um saco de ra√ß√£o com peso em quilos. Ele possui dois gatos, para
+    os quais fornece a quantidade de ra√ß√£o em gramas. A quantidade di√°ria de ra√ß√£o
+    fornecida para cada gato √© sempre a mesma. Fa√ßa um programa que receba o peso
+    do saco de ra√ß√£o e a quantidade de ra√ß√£o fornecida para cada gato, calcule e mostre
+    quanto restar√° de ra√ß√£o no saco ap√≥s cinco dias.*/
 
     float pesoracao, porcaogato, restou, cincodias;
 
