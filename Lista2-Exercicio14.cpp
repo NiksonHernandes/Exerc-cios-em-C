@@ -3,10 +3,10 @@
 
 int main()
 {
-    /*FaÁa um programa que receba o ano de nascimento de uma pessoa e o ano atual,
+    /*Fa√ßa um programa que receba o ano de nascimento de uma pessoa e o ano atual  
     calcule e mostre:
     a) a idade dessa pessoa;
-    b) quantos anos ela ter· em 2050.*/
+   b) quantos anos ela ter√° em 2050.*/
 
     int anodenascimento, anoatual, idade, idadeem2050;
 
