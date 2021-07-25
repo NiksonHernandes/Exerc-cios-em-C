@@ -3,7 +3,7 @@
 int main()
 {
     
-    //Faça um programa que receba quatro tres notas,
+    //Faça um programa que receba quatro tres notas
     //calcula e mostre a media aritmetica. 
     
     float n1, n2, n3;
