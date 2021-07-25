@@ -2,8 +2,7 @@
 
 int main()
 {
-    /* FaÁa um programa que receba o sal·rio inicial de um funcion·rio, calcule e mostre
-    o novo sal·rio,acrescido de bonificaÁ„o e de auxÌlio escola.*/
+    /* Fa√ßa um programa que receba o sal√°rio inicial de um funcion√°rio, calcule e mostre o novo sal√°rio,acrescido de bonifica√ß√£o e de aux√≠lio escola.*/
 
     int salinicial, salnovo;
 
