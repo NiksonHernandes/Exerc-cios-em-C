@@ -3,7 +3,7 @@
 
 int main()
 {
-    /*Faça um programa que receba dois números maiores que zero, calcule e mostre
+    /*FaÃ§a um programa que receba dois nÃºmeros maiores que zero, calcule e mostre
     um elevado ao outro.*/
 
     float n1, n2, elevado;
