@@ -14,7 +14,5 @@ int main()
         printf("%d\n", auxiliar);
     }
     
-    
-    
     return 0;
 }
