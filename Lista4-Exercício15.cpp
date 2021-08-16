@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void cabecario(void)//funÁ„o cabeÁario
+void cabecario(void)//fun√ß√£o cabe√ßario
 {
     system("color 3");
     printf("***************************\n");
@@ -10,7 +10,7 @@ void cabecario(void)//funÁ„o cabeÁario
     return;
 }
 
-void rodape (void)//funÁ„o rodapÈ
+void rodape (void)//fun√ß√£o rodap√©
 {
      printf("\n\n***************************\n");
      return;
@@ -21,9 +21,9 @@ int main()
 
    cabecario();
 
-    /* FaÁa um programa que receba o preÁo unit·rio, a refrigeraÁ„o (S para os produtos
-    que integra de refrigeraÁ„o e N para os que n„o necessitem) e a categoria (A -
-    alimentaÁ„o; L - Limpeza e V - Vesti·rio) de doze produtos, e que calcule e mostre: */
+    /* Fa√ßa um programa que receba o pre√ßo unit√°rio, a refrigera√ß√£o (S para os produtos
+    que integra de refrigera√ß√£o e N para os que n√£o necessitem) e a categoria (A -
+    alimenta√ß√£o; L - Limpeza e V - Vesti√°rio) de doze produtos, e que calcule e mostre: */
 
     float preco_unitario=0, imposto=0, custo_estocagem=0, preco_final=0, media=0, custo=0, imp=0;
     char categoria[15], refrigeracao[15];
@@ -33,7 +33,7 @@ int main()
     for(i=0; i<5; i++)
     {
 
-    //recebendo e armazenando informaÁıes
+    //recebendo e armazenando informa√ß√µes
     printf("\nInforme o PRECO UNITARIO: ");
     scanf("%f", &preco_unitario);
 
@@ -157,12 +157,12 @@ int main()
     }
 
 
-    //preÁo final =  preÁo unit·rio mais custo de estocagem mais imposto.
+    //pre√ßo final =  pre√ßo unit√°rio mais custo de estocagem mais imposto.
     preco_final = preco_unitario + custo +  imp;
     printf("\nPreco final: %.2f (PU) + %.2f (CE) + %.2f (IMP) = %.2f", preco_unitario, custo, imp, preco_final);
 
-     /*O preÁo final, ou seja, preÁo unit·rio mais custo de estocagem mais imposto.
-    A classificaÁ„o calculada usando a tabela a seguir.*/
+     /*O pre√ßo final, ou seja, pre√ßo unit√°rio mais custo de estocagem mais imposto.
+    A classifica√ß√£o calculada usando a tabela a seguir.*/
     if(preco_final <=20)
     {
         printf("\nProduto BARATO\n");
@@ -179,7 +179,7 @@ int main()
         caro = caro + 1;
     }
 
-    //maior e menor preÁo final
+    //maior e menor pre√ßo final
     if(preco_final > maior_num)
     {
         maior_num = preco_final;
@@ -191,11 +191,11 @@ int main()
 
     }
 
-    // A mÈdia dos valores adicionais, ou seja, a mÈdia dos custos de estocagem e dos impostos dos doze produtos.
+    // A m√©dia dos valores adicionais, ou seja, a m√©dia dos custos de estocagem e dos impostos dos doze produtos.
     media = custo_estocagem / 5;
     printf("\nMedia do custo de estocagem dos produtos: %.2f", media);
 
-    //Imprime menor e maior preÁo final.
+    //Imprime menor e maior pre√ßo final.
     printf("\nMaior preco final: %.2f", maior_num);
     printf("\nMenor preco final: %.2f", menor_num);
 
