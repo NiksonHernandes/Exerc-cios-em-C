@@ -3,7 +3,7 @@
 
 int main()
 {
-    /*PREENCHA UM VETOR DE 8 ELEMENTOS INTEIROS, MOSTRE O VETOR E INFORME QUANTOS NUMEROS S√O
+    /*PREENCHA UM VETOR DE 8 ELEMENTOS INTEIROS, MOSTRE O VETOR E INFORME QUANTOS NUMEROS S√ÉO
     MAIORES DO QUE 30 E SOME ESTES NUMEROS. SOME TODOS OS NUMEROS DO VETOR.*/
 
     int vet[8];
@@ -31,8 +31,6 @@ int main()
     printf("\n\nValores maiores do que 30: %i\n", maior_30);
     printf("\nA soma dos maiores do que 30: %i\n", soma_maior_30);
     printf("\nA soma de todos os valores do vetor: %i\n", somatotal);
-
-
 
 
     return 0;
