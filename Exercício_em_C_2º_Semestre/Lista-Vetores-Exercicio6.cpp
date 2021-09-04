@@ -3,8 +3,8 @@
 
 int main()
 {
-    /*PEÇA 2 VETORES COM 5 POSIÇÕES. MOSTRE OS NÚMEROS E SOME OS QUE PERTENCEM A MESMA
-    POSIÇÃO, OU SEJA, [0] + [0], [1] + [1]*/
+    /*PEÃ‡A 2 VETORES COM 5 POSIÃ‡Ã•ES. MOSTRE OS NÃšMEROS E SOME OS QUE PERTENCEM A MESMA
+    POSIÃ‡ÃƒO, OU SEJA, [0] + [0], [1] + [1]*/
 
     int vet1[5], vet2[5];
     int i, soma;
@@ -13,7 +13,6 @@ int main()
     {
         printf("Informe os valores do vetor 1: ");
         scanf("%i", &vet1[i]);
-
 
     }
 
