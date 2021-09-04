@@ -3,7 +3,7 @@
 
 int main()
 {
-    /*PREENCHER UM VETOR COM OS NUMEROS PARES DO NÚMERO 2 A 20*/
+    /*PREENCHER UM VETOR COM OS NUMEROS PARES DO NÃšMERO 2 A 20*/
 
     int vet[10];
     int i, x = 0;
@@ -18,8 +18,6 @@ int main()
     {
         printf("Valores pares: %i\n", vet[i]);
     }
-
-
 
     return 0;
 }
