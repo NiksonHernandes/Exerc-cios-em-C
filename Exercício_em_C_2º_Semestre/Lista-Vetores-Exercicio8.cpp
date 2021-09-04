@@ -4,8 +4,8 @@
 int main ()
 {
     /*PREENCHA UM VETOR COM 8 ELEMENTOS INTEIROS, MOSTRE O VETOR NA HORIZONTAL COM \T,
-    CALCULE A MÉDIA DO VETOR, MOSTRE QUANTOS NUMEROS SÃO MÚLTIPLOS DE 5, QUANTOS SÃO
-    MAIOR QUE 10 E MENORES QUE 30 E QUAL O MAIOR NÚMERO DO VETOR.*/
+    CALCULE A MÃ‰DIA DO VETOR, MOSTRE QUANTOS NUMEROS SÃƒO MÃšLTIPLOS DE 5, QUANTOS SÃƒO
+    MAIOR QUE 10 E MENORES QUE 30 E QUAL O MAIOR NÃšMERO DO VETOR.*/
 
     int vet[8];
     int i, j, mult5 = 0, cond = 0, maiorNum = 0;
@@ -39,10 +39,9 @@ int main ()
 
     }
 
-
     printf("\n");
 
-    //saída do vetor
+    //saÃ­da do vetor
     for(i=0; i<8; i++)
     {
 
