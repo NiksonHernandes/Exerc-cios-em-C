@@ -24,6 +24,5 @@ int main()
 
     printf("\nA soma de tudo eh: %i\n", soma);
 
-
     return 0;
 }
