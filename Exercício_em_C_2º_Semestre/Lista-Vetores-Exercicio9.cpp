@@ -22,7 +22,7 @@ int main()
 
     }
 
-    //condiçãod e A e E
+    //condiÃ§Ã£od e A e E
     for(i=0; i<3; i++)
     {
         for(j=0; j<x; j++)
@@ -43,7 +43,6 @@ int main()
     printf("\nQuantidade de letas A: %i\n", letA);
     printf("\nQuantidade de letras E: %i\n", letE);
     printf("\nPossui %i letras A e E\n", letA + letE);
-
 
     return 0;
 }
