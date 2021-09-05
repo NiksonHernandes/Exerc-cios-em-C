@@ -4,7 +4,7 @@
 int main()
 {
         /*PREENCHER UM VETOR COM OS NUMEROS 10 A 20, E DEPOIS MOSTRAR OS ELEMENTOS
-        PARES DO VETOR DE TR¡S PARA FRENTE. TAMB…M MOSTRAR OS NUMERO ÕMPARES */
+        PARES DO VETOR DE TR√ÅS PARA FRENTE. TAMB√âM MOSTRAR OS NUMERO √çMPARES */
 
         int vet[11], vet2[10], vet3[10];
         int i = 0, x = 0, cont_par = -1, cont_impar=0;
@@ -20,7 +20,7 @@ int main()
 
         }
 
-        //comparaÁ„o de par e impar
+        //compara√ß√£o de par e impar
         for(i=0; i<11; i++)
         {
             printf("%i\n", vet[i]);
@@ -54,7 +54,6 @@ int main()
         }
 
         printf("\n ");
-
 
     return 0;
 }
