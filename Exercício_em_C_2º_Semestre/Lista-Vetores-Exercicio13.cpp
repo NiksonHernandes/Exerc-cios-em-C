@@ -20,6 +20,5 @@ int main()
         printf("\nO valor no indice [%i] eh: %i", i, vet[i]);
     }
 
-
     return 0;
 }
