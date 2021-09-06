@@ -33,13 +33,8 @@ int main()
     {
         for(j=0; j<3; j++)
         {
-            printf("%i\t", mat[i][j]);
-            if(mat[i][j]%2 == 0)
-                {
-                    
-                }
+            printf("%i\t", mat[i][j]);     
             
-
         }
         printf("\n");
     }
