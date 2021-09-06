@@ -3,8 +3,8 @@
 
 int main()
 {
-    /*FAÇA UM PROGRAMA QUE LEIA UMA MATRIZ 6X6, CONTE E ESCREVA QUANTOS VALORES
-    SÃO MAIORES DO QUE 10;*/
+    /*FAÃ‡A UM PROGRAMA QUE LEIA UMA MATRIZ 6X6, CONTE E ESCREVA QUANTOS VALORES
+    SÃƒO MAIORES DO QUE 10;*/
 
     int mat[6][6];
     int i, j, maior_10 = 0;
@@ -17,7 +17,7 @@ int main()
             printf("Digite o valor de [%i][%i]: ", i, j);
             scanf("%i", &mat[i][j]);
 
-            //comparação maior do que 10
+            //comparaÃ§Ã£o maior do que 10
             if(mat[i][j] >10)
             {
                 maior_10 ++;
@@ -40,4 +40,5 @@ int main()
     printf("\nValores maiores do que 10: %i\n", maior_10);
 
     return 0;
+    
 }
