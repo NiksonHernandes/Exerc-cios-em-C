@@ -2,7 +2,7 @@
 
 int main()
 {
-    /*FAÇA UM PROGRAMA QUE LÊ UMA MATRIZ 3X3, MULTIPLIQUE CADA ELEMENTO
+    /*FAÃ‡A UM PROGRAMA QUE LÃŠ UMA MATRIZ 3X3, MULTIPLIQUE CADA ELEMENTO
     POR 5 E IMPRIMA O RESULTADO*/
 
     int mat[3][3];
@@ -47,7 +47,6 @@ int main()
         }
         printf("\n");
     }
-
 
 
     return 0;
