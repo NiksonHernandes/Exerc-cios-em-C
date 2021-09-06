@@ -3,7 +3,7 @@
 int main()
 {
     /*PREENCHA UMA MATRIZ 3X3, CAPTURE A PRIMEIRA MATRIZ CRIADA E ENCONTRE A
-    QUANTIDADE DE N⁄MEROS PARES E A QUANTIDADE DE ÕMPARES*/
+    QUANTIDADE DE N√öMEROS PARES E A QUANTIDADE DE √çMPARES*/
 
     int mat[3][3];
     int i, j, par = 0, impar = 0;
@@ -40,10 +40,6 @@ int main()
 
     printf("\nQuantidade de numeros pares: %i\n", par);
     printf("\nQuantidade de numeros impares: %i\n", impar);
-
-
-
-
 
 
     return 0;
