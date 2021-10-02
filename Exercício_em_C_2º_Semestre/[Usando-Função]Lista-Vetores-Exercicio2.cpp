@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 
-    /*PREENCHER UM VETOR COM OS NUMEROS PARES DO NÚMERO 2 A 20*/
+  
+/*PREENCHER UM VETOR COM OS NUMEROS PARES DO NÃšMERO 2 A 20*/
 
     int vet[10], i, x;
 
@@ -19,7 +20,7 @@ void exibir()
 {
     for(i=0; i<10; i++)
     {
-        printf("Os valores [%i] são: %i\n", i, vet[i]);
+        printf("Os valores [%i] sÃ£o: %i\n", i, vet[i]);
     }
 
 }
