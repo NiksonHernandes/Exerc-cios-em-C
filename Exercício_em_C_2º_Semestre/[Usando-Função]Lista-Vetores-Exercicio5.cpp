@@ -11,7 +11,7 @@ void imprime_nome()
 {
     for(i=0; i<3; i++)
     {
-        printf("\nO nome [%i] é: %s",i, nome[i]);
+        printf("\nO nome [%i] Ã©: %s",i, nome[i]);
     }
 
 }
