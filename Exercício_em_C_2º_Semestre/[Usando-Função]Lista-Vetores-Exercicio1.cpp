@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h> //necess·rio para usar setlocale
+#include <locale.h> //necess√°rio para usar setlocale
 
-    /*PREENCHER UM VETOR COM 8 N⁄MEROS INTEIROS, SOLICITAR UM NUMERO NO TECLADO
-    PROCURAR SE EXISTE NO VETOR, SE EXISTIR, IMPRIMIR EM QUAL POSI«√O DO VETOR ESTA,
-    CASO N√O EXISTA, IMPRIMIR QUE N√O EXISTE*/
+    /*PREENCHER UM VETOR COM 8 N√öMEROS INTEIROS, SOLICITAR UM NUMERO NO TECLADO
+    PROCURAR SE EXISTE NO VETOR, SE EXISTIR, IMPRIMIR EM QUAL POSI√á√ÉO DO VETOR ESTA,
+    CASO N√ÉO EXISTA, IMPRIMIR QUE N√ÉO EXISTE*/
 
     int vet[8], num_digitado, i, x;
     char repetir;
@@ -30,7 +30,7 @@ void numeroDig()
         for(i=0; i<8; i++)
         {
             if(num_digitado == vet[i]){
-                printf("\nO n˙mero %i est· na posiÁ„o: %i\n", num_digitado, i);
+                printf("\nO n√∫mero %i est√° na posi√ß√£o: %i\n", num_digitado, i);
 
             }else{
                  x = x +1;
@@ -38,7 +38,7 @@ void numeroDig()
         }
 
         if(x == 8){
-            printf("\nO valor %i, n„o existe no vetor!\n", num_digitado);
+            printf("\nO valor %i, n√£o existe no vetor!\n", num_digitado);
         }
 
 }
@@ -57,7 +57,6 @@ int main()
         system("cls");
 
     }while( (repetir == 's') || (repetir == 'S'));
-
 
     return 0;
 }
